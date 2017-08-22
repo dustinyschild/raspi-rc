@@ -1,0 +1,26 @@
+{
+  "name": "raspi-rc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "motor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustinyschild/raspi-rc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dustinyschild/raspi-rc/issues"
+  },
+  "homepage": "https://github.com/dustinyschild/raspi-rc#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "pi-gpio": "0.0.8"
+  }
+}

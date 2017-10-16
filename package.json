@@ -5,7 +5,7 @@
   "main": "motor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ."
+    "start": "node motor.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "pi-gpio": "0.0.8"
+    "pi-gpio": "0.0.8",
+    "rpi-gpio": "^0.8.1"
   }
 }

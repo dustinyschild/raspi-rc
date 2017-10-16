@@ -6,7 +6,7 @@ const motor = new gpio(23,'out');
 const interval = setInterval(function(){
   let value = (motor.readSync() + 1) % 2;
   motor.write(value,() => console.log(`Changed State: ${value}`));
-},2000);
+},350);
 
 process.on('SIGINT',() => {
   clearInterval(interval);

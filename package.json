@@ -2,10 +2,11 @@
   "name": "raspi-rc",
   "version": "1.0.0",
   "description": "",
-  "main": "motor.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node motor.js"
+    "test:motor": "node motor.js",
+    "start": "node ."
   },
   "repository": {
     "type": "git",

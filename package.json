@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:motor": "node motor.js",
-    "start": "node ."
+    "start": "node .",
+    "start:controller": "node controller.js",
+    "bluetooth": "node ./bluetooth.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
     "dualshock-controller": "^1.1.1",
     "node-bluetooth": "^1.1.3",
     "node-hid": "^0.5.7",
-    "onoff": "^1.1.8"
+    "onoff": "^1.1.8",
+    "socket.io": "^2.1.1"
   }
 }
